@@ -1,0 +1,13 @@
+﻿using System;
+using System.Collections.Generic;
+
+namespace Console.SqlDB.ViewModel
+{
+    public partial class Devices
+    {
+        public int Id { get; set; }
+        public byte[] Id1 { get; set; }
+        public string Macid { get; set; }
+        public string ModelName { get; set; }
+    }
+}
